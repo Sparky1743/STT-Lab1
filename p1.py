@@ -8,13 +8,13 @@ def grade_calculator(marks):
     """
     if marks >= 90:
         return "A+"
-    elif marks >= 80:
+    if marks >= 80:
         return "A"
-    elif marks >= 70:
+    if marks >= 70:
         return "B"
-    elif marks >= 60:
+    if marks >= 60:
         return "C"
-    elif marks >= 50:
+    if marks >= 50:
         return "D"
     return "F"
 
