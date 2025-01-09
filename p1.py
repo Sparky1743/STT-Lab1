@@ -16,9 +16,8 @@ def grade_calculator(marks):
         return "F"
 
 # This function is used to print your grade in terminal.
-def print_your_grade(marks):
-    
-    if (grade_calculator(marks) == "F"):
+def print_your_grade(marks):  
+    if grade_calculator(marks) == "F":
         print("You have been failed.")
         print("Please meet your faculty advisor.")
 
