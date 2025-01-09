@@ -16,8 +16,7 @@ def grade_calculator(marks):
         return "C"
     elif marks >= 50:
         return "D"
-    else:
-        return "F"
+    return "F"
 
 def print_your_grade(marks):
     """
@@ -32,6 +31,6 @@ def print_your_grade(marks):
         print(f"Your grade is {grade_calculator(marks)}")
 
 # User input
-marks = int(input("Enter your marks: "))
+m = int(input("Enter your marks: "))
 # Run the function
-print_your_grade(marks)
+print_your_grade(m)
