@@ -1,6 +1,10 @@
-# Grade Caluculator
+"""
+Grade Caluculator
+"""
 
-# This function is used to calculate your grade.
+"""
+This function is used to calculate your grade.
+"""
 def grade_calculator(marks):
     if marks >= 90:
         return "A+"
@@ -15,7 +19,9 @@ def grade_calculator(marks):
     else:
         return "F"
 
-# This function is used to print your grade in terminal.
+"""
+This function is used to print your grade in terminal.
+"""
 def print_your_grade(marks):
     if grade_calculator(marks) == "F":
         print("You have been failed.")
